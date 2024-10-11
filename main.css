@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    font-family: "Nunito", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+ .konten{
+    background-color: rgb(194, 194, 194);
+}
+
+.navbar{
+  background-color:#010409;
+}
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar span{
+    color: aqua;
+}
+
+/* jbt */
+#jbt{
+    background-image: linear-gradient(to right, black, #031721);
+}
+#jbt .logo{
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid rgb(48, 138, 138);
+    box-shadow: 0px 5px 10px rgb(149, 149, 149);
+}
+
+#jbt .cv{
+    color: black;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+.isi-konten .myname{
+    font-weight: 400;
+    color: aqua;
+    font-family: 'Roboto Slab', serif;
+    font-size: 33px;
+}
+
+.isi-konten .welcome{
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+}
+
+.isi-konten p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+}
+
+/* about */
+#about{
+    /* background-color: #212730; */
+    background-image: linear-gradient(to right, black, #031721);
+}
+
+#about h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+.isi-about{
+    text-align: justify;
+}
+
+/* porto */
+#porto{
+    /* background-color: #000d13; */
+    background-image: linear-gradient(to right, black, #031721);
+
+}
+
+#porto .title-project{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+#porto .title-project span{
+    color: aqua;
+}
+
+#porto .subtitle-project{
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    color: white;
+}
+
+#porto .card{
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgb(149, 149, 149);
+    transition: 0.4s;
+}
+
+#porto .card:hover{
+    box-shadow: 0px 5px 15px aqua;
+    transform: scale(1.005);
+}
+
+#porto .card-img-top{
+    border-radius: 6px;
+}
+
+#porto .card-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+#porto .card-text{
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+}
+
+#porto .card .btn{
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+#porto .card .btn:hover{
+    background-color: rgb(0, 168, 168);
+    transform: scale(1.05);
+}
