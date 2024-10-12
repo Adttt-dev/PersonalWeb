@@ -15,7 +15,7 @@ body{
 }
 
 .navbar .navbar-brand{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
 }
@@ -29,10 +29,10 @@ body{
     background-image: linear-gradient(to right, black, #031721);
 }
 #jbt .logo{
-    width: 250px;
+    width: 230px;
     border-radius: 50%;
     border: 1px solid rgb(48, 138, 138);
-    box-shadow: 0px 5px 10px rgb(149, 149, 149);
+    box-shadow: 0px 0px 8px rgb(0, 120, 120), 0px 0px 20px rgb(49, 119, 121);
 }
 
 #jbt .cv{
@@ -141,4 +141,33 @@ body{
 #porto .card .btn:hover{
     background-color: rgb(0, 168, 168);
     transform: scale(1.05);
+}
+
+/* contact */
+#contact{
+    background-image: linear-gradient(to right, black, #031721);
+    color: white;
+}
+
+#contact h2{
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+#contact .pass, .email{
+    color: white;
+    background: none;
+}
+
+#contact .contact-submit{
+    background-color: aqua;
+}
+
+.footer{
+    /* background-image: linear-gradient(to bottom, black, #102a2c); */
+    background-color: black;
+    color: white;
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: sans-serif;
+
 }
